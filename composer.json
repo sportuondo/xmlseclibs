@@ -11,7 +11,7 @@
   "homepage": "https://github.com/sportuondo/xmlseclibs",
   "autoload": {
     "psr-4": {
-      "sportuondo\\XMLSecLibs\\": "src"
+      "RobRichards\\XMLSecLibs\\": "src"
     }
   },
   "require": {
