@@ -1,5 +1,5 @@
 {
-  "name": "robrichards/xmlseclibs",
+  "name": "sportuondo/xmlseclibs",
   "description": "A PHP library for XML Security",
   "license": "BSD-3-Clause",
   "keywords": [
@@ -8,14 +8,14 @@
     "signature",
     "security"
   ],
-  "homepage": "https://github.com/robrichards/xmlseclibs",
+  "homepage": "https://github.com/sportuondo/xmlseclibs",
   "autoload": {
     "psr-4": {
-      "RobRichards\\XMLSecLibs\\": "src"
+      "sportuondo\\XMLSecLibs\\": "src"
     }
   },
   "require": {
-    "php": ">= 5.4",
+    "php": ">= 8.1",
     "ext-openssl": "*"
   }
 }
