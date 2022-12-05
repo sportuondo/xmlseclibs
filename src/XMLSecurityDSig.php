@@ -1011,6 +1011,10 @@ class XMLSecurityDSig
             $inserted = false;
             $keyInfo = $baseDoc->createElementNS(self::XMLDSIGNS, $dsig_pfx.'KeyInfo');
 
+            if (isset($options['key_info_id'])) {
+                $keyInfo->setAttribute('Id', $options['key_info_id']);
+            }
+
             $query = "./secdsig:Object";
             $nodeset = $xpath->query($query, $parentRef);
             if ($sObject = $nodeset->item(0)) {
